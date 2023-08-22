@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pokedex</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+    integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/poke.css" />
+    
+
+    <meta name="theme-color" content="#fafafa" />
+</head>
+
+<body>
+    <!-- WebApp -->
+<div class="main-container" style="background-image: url('https://wallpapercave.com/wp/wp8155232.jpg'); height: 100vh;">
+ 
+    <div class="text-center" >
+    
+        <div id="app">
+        </div>
+    </div>
+
+
+<div class= "d-flex justify-content-center" id="container-box">
+
+    
+    <div style="float:right;" id="pokemon-list">
+        <!-- Generate the list of Pokémon here -->
+    </div>
+
+</div>
+</div>
+
+    <!-- WebApp -->
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery ||
+            document.write('<script src="js/vendor/jquery-3.4.0.min.js"><\/script>');
+    </script>
+    <script src="js/plugins.js"></script>
+
+    <script data-main="js/app/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+</body>
+
+</html>
