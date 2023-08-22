@@ -50,7 +50,7 @@
 
 #div1 {
     width: 47.9%;
-
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -71,9 +71,9 @@
     border: 5px solid black;
     height: 200px;
     border-radius: 5px;
-
+padding:3 px;
     background-image: url(https://i.ibb.co/ZfR4rCk/ezgif-com-resize-1.webp);
-    margin-left: 2%;
+   
     margin-top: 1%;
 
 }
