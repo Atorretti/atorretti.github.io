@@ -37,14 +37,16 @@
     margin: 10px;
     font-size: 110%;
     font-weight: bold;
-    overflow: hidden; 
+    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
 .pokemon-name:hover {
-    overflow: auto; /* Show scrollbar on hover */
-    white-space: normal; /* Allow text to wrap within scrollbar */
+    overflow: auto;
+    /* Show scrollbar on hover */
+    white-space: normal;
+    /* Allow text to wrap within scrollbar */
 }
 
 
@@ -53,9 +55,9 @@
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
-    height: 500px;
+    align-items: center;
+    justify-content: center;
+    
     padding-top: 1px;
 }
 
@@ -71,28 +73,30 @@
     border: 5px solid black;
     height: 200px;
     border-radius: 5px;
-padding:3 px;
+    padding: 3 px;
     background-image: url(https://i.ibb.co/ZfR4rCk/ezgif-com-resize-1.webp);
-   
+
     margin-top: 1%;
 
 }
 
 #pokeName {
-   
+
     border: 2px solid black;
     border-radius: 5px;
     color: black;
     background-color: white;
-   
-    overflow: hidden; 
+
+    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
 #pokeName:hover {
-    overflow: auto; /* Show scrollbar on hover */
-    white-space: normal; /* Allow text to wrap within scrollbar */
+    overflow: auto;
+    /* Show scrollbar on hover */
+    white-space: normal;
+    /* Allow text to wrap within scrollbar */
 
 
 
@@ -106,7 +110,7 @@ padding:3 px;
 }
 
 .type-box {
-   
+
     border: 1px solid black;
     border-radius: 5px;
     font-size: 110%;
@@ -126,17 +130,18 @@ padding:3 px;
 
     overflow-y: auto;
 
-    max-height: 200px;
+   
 
     padding-left: 5px;
     padding-right: 5px;
 
 }
+
 #divType {
     margin-top: 10px;
 
 }
-    
+
 
 #pokemon-pokemonNumber {
     background: #e90c0c;
@@ -286,5 +291,8 @@ padding:3 px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .main-container {
+        padding-top: 15%; /* Adjust this value for smaller screens */
     }
 }
