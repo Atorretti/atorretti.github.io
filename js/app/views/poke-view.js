@@ -21,7 +21,7 @@ var externals = {};
     internals.createPokemonCard = function (pokemon) {
         var capitalizedPokemonName = pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1);
         let types = pokemon.type.map(type => `<span class="type-box ${type}">${type}</span>`).join('   ');
-        console.log(pokemon);
+       
         return (
             '<div id="div1">' +
             '<div class ="text-center" id="divPoke"  >' +

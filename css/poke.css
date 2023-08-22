@@ -24,6 +24,7 @@
     height: 500px;
     font-size: 18px;
     overflow-y: auto;
+    overflow: auto;
     background: #e90c0c;
 }
 
@@ -36,8 +37,14 @@
     margin: 10px;
     font-size: 110%;
     font-weight: bold;
+    overflow: hidden; /* Hide the overflow */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflowed text */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
 
-
+.pokemon-name:hover {
+    overflow: auto; /* Show scrollbar on hover */
+    white-space: normal; /* Allow text to wrap within scrollbar */
 }
 
 
@@ -46,8 +53,8 @@
 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers content horizontally */
-    justify-content: center; /* Centers content vertically */
+    align-items: center; 
+    justify-content: center; 
     height: 500px;
     padding-top: 1px;
 }

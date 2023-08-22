@@ -28,12 +28,10 @@ define(function() {
                .then(function(pokemon) {
                 var pokeDesc = pokemon.flavor_text_entries[6].flavor_text;  
                
-                console.log(pokemon);
-                
+              
                 pokedex[num] = { name: pokemonName, type: pokemonType, img: pokemonImg, Desc: pokeDesc };
                 pokedex.name = pokemonName
 
-                console.log(pokedex[num].name);
             
 
                 callback(pokedex[num]); // Pass the fetched data to the callback function
