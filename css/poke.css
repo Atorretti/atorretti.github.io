@@ -37,9 +37,9 @@
     margin: 10px;
     font-size: 110%;
     font-weight: bold;
-    overflow: hidden; /* Hide the overflow */
-    text-overflow: ellipsis; /* Show ellipsis (...) for overflowed text */
-    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .pokemon-name:hover {
@@ -79,12 +79,22 @@
 }
 
 #pokeName {
-    margin-left: 10%;
+   
     border: 2px solid black;
     border-radius: 5px;
     color: black;
     background-color: white;
-    width: 80%;
+   
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#pokeName:hover {
+    overflow: auto; /* Show scrollbar on hover */
+    white-space: normal; /* Allow text to wrap within scrollbar */
+
+
 
 }
 
@@ -96,6 +106,7 @@
 }
 
 .type-box {
+   
     border: 1px solid black;
     border-radius: 5px;
     font-size: 110%;
@@ -105,6 +116,7 @@
 }
 
 #divDesc {
+    margin-top: 10px;
     border: 2px solid black;
     border-radius: 5px;
     background: whitesmoke;
@@ -120,6 +132,11 @@
     padding-right: 5px;
 
 }
+#divType {
+    margin-top: 10px;
+
+}
+    
 
 #pokemon-pokemonNumber {
     background: #e90c0c;
@@ -248,6 +265,7 @@
     #divtype,
     #divDesc {
         text-align: left;
+        margin-top: 5px;
     }
 
     .pokemon-name {
